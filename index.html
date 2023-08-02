@@ -3,51 +3,107 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Plant and Me</title>
-    <!-- Styles -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link href="css/main.css" rel="stylesheet">
+    <title>My Plant And Me</title>
 
+    <!-- Styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
   </head>
   <body>
- 
-    <!-- ----------------------------------------------------------------------- -->
-    <!-- Carousel -->
 
-    <div id="carouselExample" class="carousel slide" >
+<!---------------------------------------------------------------------------------------------------------------------- -->
+    <!--Carousel-->
+
+    <div id="carouselExample" class="carousel slide"  data-bs-theme="dark">
         <div class="carousel-inner">
-
-            <!-- Slide 1 -->
-
+          <!-- Slide 1 -->
           <div class="carousel-item active">
             <div class="container">
-                <div class="row full height">
-                    <div class="col" align-self-center>
-                        <h1>
-                            Elevate your Enviroment with everlasting beauty
+              <div class="row full-height">
 
-                        </h1>
-                        <button class="mt-4">
-                            Browse Plants
-                        </button>
-                    </div>
-
-                    <div class="col">
-                        <img src="assets/hero-image.png" class="hero-image">
-                    </div>
-
+                <div class="col align-self-center">
+                  <h1> Elavate Your Enviroment with Everlasting Beauty</h1>
+                  <button class="mt-4">Browse Plants</button>
                 </div>
+
+                <div class="col align-self-end">
+                  <img src="assets/hero-image.png"  class="hero-image">
+                </div>
+
+              </div>
+
             </div>
           </div>
-
           <!-- Slide 2 -->
           <div class="carousel-item">
-            <p>Slide Two</p>
-            
+            <div class="container">
+              <div class="row full-height">
+                <div class="col align-self-end">
+                  <img src="assets/hero-image2.png" class="hero-image2">
+                </div>
+
+                <div class="col align-self-center">
+                  <h1>Welcome to Evergreen.
+                      Where Nature Finds a Home.</h1>
+
+                      <!-- Accordion -->
+                      <div class="accordion" id="accordionExample" data-bs-theme="light">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Our Green Oasis
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>Welcome to Evergreen - Your Green Oasis!</strong> At Evergreen, we celebrate the beauty and vitality of nature through our curated collection of lush and vibrant plants. Step into a world of botanical wonders, where tranquility and serenity embrace you at every turn. Whether you're a seasoned plant enthusiast or just starting your green journey, our team of passionate horticulturists is here to guide you on your path to plant parenthood.Discover a wide range of breathtaking indoor and outdoor plants, from elegant succulents that add a touch of elegance to your living spaces, to majestic palms that bring a tropical paradise to your backyard.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              The Benefits of Green Living
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>At Evergreen, we believe in the power of plants to transform not only your living spaces but also your life</strong>  Surround yourself with nature's tranquility and experience the many benefits of a plant-filled life - from improved air quality to reduced stress levels.
+
+                              Studies have shown that having plants in your home or workspace can improve air quality by purifying the air and removing toxins. They also release oxygen, creating a healthier and more refreshing atmosphere.
+                              
+                              In addition to the physical benefit <code></code>, plants have a positive impact on mental health.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Join our Green Mission
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>Join us in our mission to make the world a greener, healthier place, one plant at a time.</strong> Explore our store, embrace the evergreen lifestyle, and let the magic of plants infuse your world with freshness and vitality.
+
+                              Whether you're a seasoned plant enthusiast or just starting your green journey, our team of passionate horticulturists is here to guide you on your path to plant parenthood. We provide expert advice, care tips, and support to ensure your plants thrive and flourish.
+                              
+                              At Evergreen, we believe that plants bring joy, beauty, and balance to our lives. Let's cultivate a greener future together. Welcome to Evergreen - Where Nature Finds a Home.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                
+
+              </div>
+
+            </div>
           </div>
-          
+         
+        </div>
+
         <!-- Carousel Controls -->
-        
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
@@ -58,9 +114,10 @@
         </button>
       </div>
 
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="js/index.js"></script>
+     <!-- Scripts -->
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
